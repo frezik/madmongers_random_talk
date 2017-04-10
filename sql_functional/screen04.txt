@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+\e[37mOne problem: lots of namespace exports
+
+
+\e[32m
+    our @EXPORT_OK = qw{
+        SELECT
+        star
+        field
+        col
+        FROM
+        WHERE
+        match
+        match_verbatim
+        op
+        table
+        ORDER_BY
+        ...

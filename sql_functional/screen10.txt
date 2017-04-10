@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+                                Delete
+
+\e[32m
+    my ($delete, @delete_params) = DELETE FROM( 'foo' ),
+        WHERE match( 'bar', '=', 1 );

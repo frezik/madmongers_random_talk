@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+\e[37mSolution for show-offs: use APL-based package separators
+
+
+\e[32m
+    package Q;
+    use SQL::Functional;
+     
+    package main;
+    my ($sql, @params) = Q'SELECT Q'star, Q'FROM 'foo';
+
+
+(This will drive syntax-highlighting editors bonkers)
+(And it's still ugly)

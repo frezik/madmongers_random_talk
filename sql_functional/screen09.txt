@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+                                Insert
+
+\e[32m
+    my ($insert, @insert_params) = INSERT INTO 'foo',
+        [
+            'bar',
+        ],
+        VALUES [
+            1,
+        ];

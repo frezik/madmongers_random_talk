@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+
+                             Update
+
+\e[32m
+    my ($update, @update_params) = UPDATE 'foo', SET( 
+        op( 'bar', '=', 1 ),
+        op( 'baz', '=', 2 ),
+    ),
+    WHERE match( 'qux', '=', 3 );

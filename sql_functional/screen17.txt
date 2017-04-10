@@ -1,0 +1,9 @@
+
+
+
+
+
+
+
+
+Bad news: SQL::Functional doesn't optimize.

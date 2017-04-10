@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+\e[37mOne solution: export to different namespace
+
+
+\e[32m
+    package Q;
+    use SQL::Functional;
+     
+    package main;
+    my ($sql, @params) = Q::SELECT Q::star, Q::FROM 'foo';
+
+(This is ugly)

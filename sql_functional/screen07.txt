@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+Better solution: export to different namespace,
+then do your SQL from there
+
+
+\e[32m
+    package Q;
+    use SQL::Functional;
+
+    sub get_all_foo
+    {
+        return SELECT star, FROM 'foo';
+    }
+     
+
+    package main;
+    my ($sql, @params) = Q::get_all_foo();

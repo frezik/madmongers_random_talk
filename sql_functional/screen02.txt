@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+
+\e[37mMakes it look like SQL is in your Perl program
+
+\e[32m
+    my ($select, @select_params) = SELECT star,
+        FROM( 'foo' ),
+        WHERE match( 'bar', '=', 1 );

@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+* SELECT -> SQL::Functional::SelectClause
+* FROM   -> SQL::Functional::FromClause
+* WHERE  -> SQL::Functional::WhereClause
+
+See a pattern?

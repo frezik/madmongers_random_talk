@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+How many other languages could do this syntax?
+(Without source code filtering)
+
+\e[32m
+    my ($insert, @insert_params) = INSERT INTO 'foo',
+        [
+            'bar',
+        ],
+        VALUES [
+            1,
+        ];

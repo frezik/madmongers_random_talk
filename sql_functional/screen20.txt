@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+All of them do the SQL::Functional::Clause role (Moose).
+
+Requires a to_string() function.
+
+The get_params() function returns the values of any placeholder params.
+    (Has a default, but sometimes needs to be overridden)
+
+Walk the tree (left most, depth first), calling to_string() 
+and gathering the params.

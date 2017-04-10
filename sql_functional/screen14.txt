@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+A given compiler might work like this:
+
+* Tokenization (splitting up whitespace, simple substitutions)
+* Parsing (figures out structure, like nested braces)
+* Optimize the tree (the AST we get back from parsing
+* Output
+
+There might be more steps, like having intermediate languages, but we'll 
+just worry about these.
