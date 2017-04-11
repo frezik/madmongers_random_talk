@@ -1,0 +1,11 @@
+
+
+
+
+
+
+
+
+Problem: I used SVG and now my brain melted
+
+Solution: Graphics::GVG and a brain transplant

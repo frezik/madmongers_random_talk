@@ -5,6 +5,8 @@ TERM_WIDTH=`stty size | perl -E '$_=<>; chomp; $_=(split)[1]; say'`
 
 DATA=`cat ${FILE}`
 
+clear
+
 # Outputs the filename centered at the top of the screen.
 # We also output a carriage return, which allows the screen text 
 # to overwrite the output by having text on the first line.

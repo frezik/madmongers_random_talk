@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+                          What if we want an SVG?
+                          Or convert from an SVG?
+
+                            Graphics::GVG::SVG
+                            
+                               Also, Inkscape
