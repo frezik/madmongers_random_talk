@@ -1,0 +1,8 @@
+
+
+
+Files for .txt, .yml, and .pm are mapped automatically.
+
+* .txt -> Games::Asset::PlainText
+* .yml -> Games::Asset::YAML
+* .pm -> Games::Asset::PerlModule

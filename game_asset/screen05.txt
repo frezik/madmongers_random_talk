@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+YAML files give you the data structure with the data() method:
+\e[32m
+    use Data::Dumper 'Dumper';
+    my $foo = $asset->get_by_name( 'foo' );
+    print Dumper $foo->data

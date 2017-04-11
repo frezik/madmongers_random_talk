@@ -1,0 +1,11 @@
+
+
+
+
+
+
+
+
+\e[36mWould anybody like to see how to do a callback func in xs?
+
+\e[33mNo, you don't

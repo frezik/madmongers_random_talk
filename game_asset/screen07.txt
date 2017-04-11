@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+We can also add an index.yml file to the archive
+
+Maps a file extension to a Game::Asset::Type.
+
+\e[32m
+    ---
+    flac: Game::Asset::SDLSound
+    mp3: Game::Asset::SDLSound
+    ogg: Game::Asset::SDLSound
+    wav: Game::Asset::SDLSound
+    gvg: Game::Asset::GVG::OpenGL

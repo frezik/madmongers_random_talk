@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+Games often store data (textures, music, etc.) in ZIP files
+
+It may not be named .zip
+
+It might be .pk3 (Quake III Arena)
+
+But they're ZIPs
+
+Keeps the entire download and install in one neat file
+
+Not just games, Java .jar and Perl .par, too

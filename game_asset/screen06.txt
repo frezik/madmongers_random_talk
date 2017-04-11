@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+Perl modules are automatically loaded. Get their package name with 
+the package() method.
+\e[32m
+    my $bar = $asset->get_by_name( 'bar' );
+    my $pack = $bar->package;
+    my $obj = $pack->new;

@@ -1,0 +1,30 @@
+
+
+From Perl:
+\e[32m
+    cpBodySetVelocityUpdateFunc( $body, sub {
+        say "Callback func called";
+    });
+\e[0m
+This gets called every time the velocity might update on the body
+\e[32m
+    void
+    cpBodySetVelocityUpdateFunc( body, velocityFunc )
+        cpBody *body
+        SV* velocityFunc
+      PREINIT:
+        dMY_CXT;
+      CODE:
+        hv_store(
+            MY_CXT.bodyVelocityFuncs,
+            (char*)&body,
+            sizeof(body),
+            velocityFunc,
+            0
+        );
+
+        cpBodySetVelocityUpdateFunc(
+            body,
+            (cpBodyVelocityFunc) __perlCpBodyVelocityFunc
+        );
+

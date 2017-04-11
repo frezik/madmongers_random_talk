@@ -1,0 +1,13 @@
+
+
+
+
+For simple files, Games::Asset can pull things out of a ZIP easily enough:
+\e[32m
+    my $asset = Game::Asset->new({
+        file => 'test.zip',
+    });
+
+    my $baz = $asset->get_by_name( 'baz' );
+    # $baz isa Games::Asset::PlainText
+    print $baz->content;

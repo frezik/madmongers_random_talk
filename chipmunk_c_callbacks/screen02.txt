@@ -1,0 +1,21 @@
+
+
+
+
+
+
+Linking to a basic C function in xs isn't too bad:
+\e[32m
+    cpBB
+    cpBBNew(l, b, r, t)
+        cpFloat l
+        cpFloat b
+        cpFloat r
+        cpFloat t
+\e[0m
+Typemaps:
+\e[32m
+    cpFloat    T_DOUBLE
+    cpBB       T_OPAQUE_STRUCT
+\e[0m
+You can get 90% of a library setup by crudely parsing a .h library
